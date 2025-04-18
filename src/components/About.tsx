@@ -23,13 +23,28 @@ const About = () => {
                 transition={{ duration: 0.5 }}
               />
             </div>
-            <div className="md:w-2/3 text-left">
-              <p className="paragraph mb-4">
-                Ciao! Sono Fadiga Losseni, un appassionato Social Media Manager con una forte predisposizione per la creazione di contenuti coinvolgenti e strategie digitali efficaci.
+            <div className="md:w-2/3 text-left space-y-4">
+              <p className="paragraph">
+                Studente e professionista del marketing digitale, con forte interesse per psicologia, attualmente studente universitario in psicologia. Mi appassionano la tecnologia e la creatività.
               </p>
               <p className="paragraph">
-                La mia missione è aiutare professionisti e aziende a costruire una presenza online autentica e di impatto, trasformando i follower in una community engaged e i visitatori in clienti fedeli.
+                Mi definisco curioso, veloce nell'apprendimento e motivato a crescere nel mondo del digitale.
               </p>
+              <div className="space-y-2">
+                <h3 className="text-lg font-semibold">Formazione</h3>
+                <ul className="list-disc list-inside space-y-1">
+                  <li>Corso Social Media Manager (Click Academy, 2023–2024)</li>
+                  <li>Corso competenze digitali e marketing (Umana Forma, 2023)</li>
+                </ul>
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-semibold">Lingue</h3>
+                <p>Italiano, Inglese, Francese, Spagnolo</p>
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-semibold">Interessi personali</h3>
+                <p>Arte, moda, musica, sport e lettura su temi di psicologia e neuroscienze.</p>
+              </div>
             </div>
           </div>
         </motion.div>

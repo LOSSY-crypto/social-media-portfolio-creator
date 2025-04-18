@@ -1,25 +1,28 @@
 
 import { motion } from "framer-motion";
 import { 
+  LayoutGrid, 
   Palette, 
   Search, 
-  MessageSquare, 
-  BarChart, 
-  Layout,
-  PenTool
+  MessageSquare,
+  PenTool,
+  FileSpreadsheet,
+  Image,
+  Calendar,
+  Database
 } from "lucide-react";
 
 const Skills = () => {
   const skills = [
     {
-      icon: <Layout className="w-8 h-8" />,
-      title: "WordPress & Elementor",
-      description: "Creazione di siti web professionali e landing page ottimizzate"
+      icon: <LayoutGrid className="w-8 h-8" />,
+      title: "WordPress ed Elementor",
+      description: "Creazione e gestione di siti web professionali"
     },
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Canva",
-      description: "Design grafico accattivante per social media e materiali promozionali"
+      description: "Design grafico per contenuti social e materiali promozionali"
     },
     {
       icon: <Search className="w-8 h-8" />,
@@ -28,18 +31,33 @@ const Skills = () => {
     },
     {
       icon: <MessageSquare className="w-8 h-8" />,
-      title: "Social Media",
-      description: "Gestione professionale dei profili social e community management"
+      title: "Social Media Management",
+      description: "Gestione professionale dei profili social"
     },
     {
       icon: <PenTool className="w-8 h-8" />,
-      title: "Content Creation",
-      description: "Creazione di contenuti originali e coinvolgenti"
+      title: "Content Marketing",
+      description: "Creazione di contenuti strategici e coinvolgenti"
     },
     {
-      icon: <BarChart className="w-8 h-8" />,
-      title: "Marketing Digitale",
-      description: "Strategie di marketing efficaci per la crescita online"
+      icon: <FileSpreadsheet className="w-8 h-8" />,
+      title: "Microsoft Office",
+      description: "Word, Excel, PowerPoint"
+    },
+    {
+      icon: <Image className="w-8 h-8" />,
+      title: "Adobe Photoshop",
+      description: "Editing e creazione di immagini professionali"
+    },
+    {
+      icon: <Calendar className="w-8 h-8" />,
+      title: "Gestione Calendario",
+      description: "Pianificazione e gestione calendario editoriale"
+    },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Sviluppo Web Base",
+      description: "Conoscenze base di MySQL e PHP"
     }
   ];
 
