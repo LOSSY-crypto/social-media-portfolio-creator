@@ -70,18 +70,6 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div className="absolute -bottom-6 -right-6 w-44 h-44 glass-card rounded-2xl opacity-0 animate-fade-in-up" style={{animationDelay: '1200ms', animationFillMode: 'forwards'}}>
-              <div className="flex flex-col items-center justify-center h-full p-4 text-center">
-                <div className="text-4xl font-bold">4+</div>
-                <div className="text-sm text-foreground/70">Lingue Parlate</div>
-              </div>
-            </div>
-            <div className="absolute -top-6 -left-6 w-36 h-36 glass-card rounded-2xl opacity-0 animate-fade-in-down" style={{animationDelay: '1400ms', animationFillMode: 'forwards'}}>
-              <div className="flex flex-col items-center justify-center h-full p-4 text-center">
-                <div className="text-3xl font-bold">2+</div>
-                <div className="text-sm text-foreground/70">Certificazioni</div>
-              </div>
-            </div>
           </div>
         </div>
 
