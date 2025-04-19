@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowDown, Instagram, Facebook, Twitter, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Instagram, Facebook, Twitter, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -19,6 +19,11 @@ const Hero = () => {
       <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className={`space-y-6 ${isLoaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <div className="absolute top-0 right-0 p-4 flex items-center space-x-2">
+              <Phone size={16} className="text-foreground/70" />
+              <span className="text-sm text-foreground/70">+39 3278950213</span>
+            </div>
+
             <div className="inline-block glass px-4 py-2 rounded-full">
               <p className="text-sm font-medium text-foreground/70">Digital Marketing & Social Media</p>
             </div>
@@ -46,15 +51,10 @@ const Hero = () => {
                 <a href="mailto:losseni.fadiga@gmail.com" className="p-2 rounded-full bg-social-instagram/10 hover:bg-social-instagram hover:text-white transition-colors">
                   <Mail size={20} />
                 </a>
-                <a href="#" className="p-2 rounded-full bg-social-instagram/10 text-social-instagram hover:bg-social-instagram hover:text-white transition-colors">
-                  <Instagram size={20} />
-                </a>
-                <a href="#" className="p-2 rounded-full bg-social-facebook/10 text-social-facebook hover:bg-social-facebook hover:text-white transition-colors">
-                  <Facebook size={20} />
-                </a>
-                <a href="#" className="p-2 rounded-full bg-social-linkedin/10 text-social-linkedin hover:bg-social-linkedin hover:text-white transition-colors">
-                  <Linkedin size={20} />
-                </a>
+                <div className="flex items-center space-x-2 text-sm text-foreground/70">
+                  <Phone size={16} />
+                  <span>+39 3278950213</span>
+                </div>
               </div>
             </div>
           </div>
