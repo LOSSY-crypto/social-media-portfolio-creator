@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { ArrowDown, Instagram, Facebook, Twitter, Linkedin, Mail } from "lucide-react";
 
@@ -64,7 +63,7 @@ const Hero = () => {
             <div className="relative z-10 opacity-0 animate-fade-in" style={{animationDelay: '800ms', animationFillMode: 'forwards'}}>
               <div className="w-full h-full bg-gradient-to-tr from-white to-gray-100 p-1 rounded-2xl shadow-xl overflow-hidden">
                 <img 
-                  src="/profile.jpg"
+                  src="public/lovable-uploads/8558f964-78bd-48f9-a43f-3ef6a0186911.png"
                   alt="Fadiga Losseni" 
                   className="w-full h-full object-cover rounded-xl animate-float"
                   style={{animationDelay: '1000ms'}}
