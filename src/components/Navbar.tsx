@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -42,7 +41,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="#home" className="focus:outline-none">
-              <span className="font-display text-2xl font-bold text-primary">Social<span className="text-primary/50">Pro</span></span>
+              <span className="font-display text-2xl font-bold text-primary">Fadiga Losseni</span>
             </a>
           </div>
 
