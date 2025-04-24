@@ -62,7 +62,7 @@ const Hero = () => {
 
           <div className="relative hidden lg:block">
             <div className="relative z-10 opacity-0 animate-fade-in" style={{animationDelay: '800ms', animationFillMode: 'forwards'}}>
-              <div className="w-full h-full bg-gradient-to-tr from-white to-gray-100 p-1 rounded-2xl shadow-xl overflow-hidden">
+              <div className="w-3/4 mx-auto h-full bg-gradient-to-tr from-white to-gray-100 p-1 rounded-2xl shadow-xl overflow-hidden">
                 <img 
                   src="/lovable-uploads/b5975350-b800-419e-9ab6-5cb7c9a734b8.png"
                   alt="Fadiga Losseni" 
