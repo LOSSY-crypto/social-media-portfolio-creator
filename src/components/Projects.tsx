@@ -23,8 +23,8 @@ const Projects = () => {
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-1/3">
                 <img
-                  src="/placeholder.svg"
-                  alt="Progetto Psicologa"
+                  src="/lovable-uploads/b2218f78-7ee5-41ee-bfaa-1a57427947db.png"
+                  alt="Studio di Psicologia"
                   className="rounded-xl w-full h-48 object-cover"
                 />
               </div>
