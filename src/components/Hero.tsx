@@ -1,5 +1,6 @@
+
 import { useEffect, useState } from "react";
-import { ArrowDown, Instagram, Facebook, Twitter, Linkedin, Mail, Phone } from "lucide-react";
+import { ArrowDown, Phone, Mail } from "lucide-react";
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -63,7 +64,7 @@ const Hero = () => {
             <div className="relative z-10 opacity-0 animate-fade-in" style={{animationDelay: '800ms', animationFillMode: 'forwards'}}>
               <div className="w-full h-full bg-gradient-to-tr from-white to-gray-100 p-1 rounded-2xl shadow-xl overflow-hidden">
                 <img 
-                  src="public/lovable-uploads/8558f964-78bd-48f9-a43f-3ef6a0186911.png"
+                  src="/lovable-uploads/b5975350-b800-419e-9ab6-5cb7c9a734b8.png"
                   alt="Fadiga Losseni" 
                   className="w-full h-full object-cover rounded-xl animate-float"
                   style={{animationDelay: '1000ms'}}
