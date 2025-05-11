@@ -9,7 +9,10 @@ import {
   FileSpreadsheet,
   Image,
   Calendar,
-  Database
+  Database,
+  Brain,
+  BrainCog,
+  Bot
 } from "lucide-react";
 
 const Skills = () => {
@@ -38,6 +41,21 @@ const Skills = () => {
       icon: <PenTool className="w-8 h-8" />,
       title: "Content Marketing",
       description: "Creazione di contenuti strategici e coinvolgenti"
+    },
+    {
+      icon: <Brain className="w-8 h-8" />,
+      title: "AI Tools",
+      description: "Utilizzo avanzato di strumenti di intelligenza artificiale"
+    },
+    {
+      icon: <BrainCog className="w-8 h-8" />,
+      title: "Prompt Engineering",
+      description: "Creazione di prompt efficaci per AI generative"
+    },
+    {
+      icon: <Bot className="w-8 h-8" />,
+      title: "Automazione Marketing",
+      description: "Utilizzo di bot e automazioni per strategie marketing"
     },
     {
       icon: <FileSpreadsheet className="w-8 h-8" />,
