@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="flex flex-col space-y-4">
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/fadiga-losseni"
+                href="https://www.linkedin.com/in/losseni-fadiga-49917a292"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
