@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Phone, Mail, MapPin, Send, Instagram, Linkedin } from "lucide-react";
 import { toast } from "sonner";
@@ -47,7 +48,7 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       title: "Email",
-      info: "fadiga.losseni@example.com",
+      info: "losseni.fadiga@gmail.com",
     },
     {
       icon: <MapPin className="w-5 h-5" />,
