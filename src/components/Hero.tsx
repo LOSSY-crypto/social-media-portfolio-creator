@@ -70,9 +70,9 @@ const Hero = () => {
             animationFillMode: 'forwards'
           }}>
               <div className="w-3/4 mx-auto h-full bg-gradient-to-tr from-white to-gray-100 p-1 rounded-2xl shadow-xl overflow-hidden">
-                <img src="/lovable-uploads/b5975350-b800-419e-9ab6-5cb7c9a734b8.png" alt="Fadiga Losseni" className="w-full h-full object-cover rounded-xl animate-float" style={{
+                <img src="/lovable-uploads/b5975350-b800-419e-9ab6-5cb7c9a734b8.png" alt="Fadiga Losseni" style={{
                 animationDelay: '1000ms'
-              }} />
+              }} className="w-full h-full rounded-xl animate-float object-cover" />
               </div>
             </div>
           </div>
